@@ -63,10 +63,6 @@
       <Project>{F387F05B-6944-4AB6-8CE5-3765B7489FD9}</Project>
       <Name>Beanstalk.Client.Test</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Beanstalk.Client\Beanstalk.Client.csproj">
-      <Project>{7103300D-B9FA-485A-912D-D9CC9D8B80F7}</Project>
-      <Name>Beanstalk.Client</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

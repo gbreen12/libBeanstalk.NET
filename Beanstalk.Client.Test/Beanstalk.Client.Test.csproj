@@ -67,12 +67,6 @@
     <Compile Include="RequestTests.cs" />
     <Compile Include="TestExtensions.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Beanstalk.Client\Beanstalk.Client.csproj">
-      <Project>{7103300D-B9FA-485A-912D-D9CC9D8B80F7}</Project>
-      <Name>Beanstalk.Client</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
